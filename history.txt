@@ -1,0 +1,1000 @@
+ 1099  ls
+ 1100  ..
+ 1101  cd random/
+ 1102  ls
+ 1103  ..
+ 1104  ls
+ 1105  cd challenges/
+ 1106  ls
+ 1107  ..
+ 1108  ls
+ 1109  cd Learning/algorithms/
+ 1110  LS
+ 1111  ls
+ 1112  cd microsoft_interview/
+ 1113  ls
+ 1114  cat max_even_array.py 
+ 1115  vim max_even_array.py 
+ 1116  st
+ 1117  ga .
+ 1118  gcm "Add link"
+ 1119  gp origin main
+ 1120  ..
+ 1121  lsw
+ 1122  ls
+ 1123  cd Documents/callforcode/learning/
+ 1124  ls
+ 1125  cd react
+ 1126  cd reacthooks/
+ 1127  ls
+ 1128  la
+ 1129  cd src/
+ 1130  cat App.js 
+ 1131  la
+ 1132  cat index.
+ 1133  cat index.js 
+ 1134  ls
+ 1135  cat index.js 
+ 1136  cat App.js 
+ 1137  ls
+ 1138  vim App.js 
+ 1139  cd Documents/
+ 1140  ls
+ 1141  cd hsmart/healthsmart/
+ 1142  ls
+ 1143  code .
+ 1144  yarn start
+ 1145  yarn
+ 1146  man yarn
+ 1147  yarn start
+ 1148  code .
+ 1149  yarn start
+ 1150  cd Documents/hsmart/healthsmart/
+ 1151  ls
+ 1152  cd Documents/Learning/microservices/nameko_app/
+ 1153  ls
+ 1154  code .
+ 1155  ld
+ 1156  ls
+ 1157  cd auth/
+ 1158  touch config.yml Dockerfile run.sh requirements.txt
+ 1159  ..
+ 1160  cd post/
+ 1161  ls
+ 1162  touch config.yml Dockerfile run.sh requirements.txt
+ 1163  s
+ 1164  ls
+ 1165  st
+ 1166  ga .
+ 1167  gcm "Setups in auth and post"
+ 1168  gp origin master
+ 1169  find interview
+ 1170  ..
+ 1171  ls
+ 1172  ...
+ 1173  locate interview
+ 1174  docker container ls
+ 1175  cd ~
+ 1176  docker images
+ 1177  man docker
+ 1178  docker ps -a
+ 1179  docker ps
+ 1180  docker container prune
+ 1181  docker images
+ 1182  docker image ls
+ 1183  docker image prune
+ 1184  docker image ls
+ 1185  docker images
+ 1186  ..
+ 1187  cd interview_prep/
+ 1188  code README.md 
+ 1189  st
+ 1190  ga .
+ 1191  gcm "Docker questions"
+ 1192  git push origin main 
+ 1193  cd ~
+ 1194  locate microservices
+ 1195  cd Documents/hng/microapis/microservices/
+ 1196  ls
+ 1197  code .
+ 1198  cd mailer/
+ 1199  docker run -p 3000 mailer
+ 1200  docker images
+ 1201  nameko run mailer
+ 1202  ls
+ 1203  cd Documents/Learning/microservices/nameko_app/
+ 1204  code .
+ 1205  docker run -d -p 5672:5672 rabbitmq:3
+ 1206  docker ps
+ 1207  ls
+ 1208  docker ps stop
+ 1209  docker ps 
+ 1210  docker ps --help
+ 1211  docker --help
+ 1212  docker ps
+ 1213  docker stop f9a6d5851a28
+ 1214  docker ps
+ 1215  nameko shell
+ 1216  source venv/bin/activate
+ 1217  nameko shell
+ 1218  ..
+ 1219  cd nameko_app/
+ 1220  code .
+ 1221  ls
+ 1222  st
+ 1223  ga .
+ 1224  gcm "Documentation and auth service setup"
+ 1225  gp origin main
+ 1226  gp origin master
+ 1227  ..
+ 1228  cd interview_prep/
+ 1229  ls
+ 1230  code README.md 
+ 1231  st
+ 1232  ga .
+ 1233  gcm "DI"
+ 1234  git push origin main 
+ 1235  man nc
+ 1236  ..
+ 1237  ls
+ 1238  ls nameko-intro/
+ 1239  rm -rf nameko-intro/
+ 1240  mcd nameko-intro
+ 1241  ls
+ 1242  python3.6 -m venv --without-pip venv
+ 1243  source venv/bin/activate
+ 1244  curl https://bootstrap.pypa.io/get-pip.py | python
+ 1245  pip install nameko
+ 1246  pip freeze > requirements.txt
+ 1247  cat requirements.txt 
+ 1248  vim hello.py
+ 1249  nameko run hello.py 
+ 1250  vim hello.py
+ 1251  ls
+ 1252  nameko run hello
+ 1253  cat hello.py 
+ 1254  cd auth/
+ 1255  code .
+ 1256  ls
+ 1257  cd ~
+ 1258  cd Documents/hng/microapis/microservices/
+ 1259  ls
+ 1260  cat .env
+ 1261  ls
+ 1262  psql
+ 1263  ..
+ 1264  ls
+ 1265  cd mailer/
+ 1266  cat mailer.py 
+ 1267  ..
+ 1268  cat docker-compose.yml 
+ 1269  ls
+ 1270  cat .env
+ 1271  ls
+ 1272  cat .env.example 
+ 1273  vim .env.example 
+ 1274  vim .env
+ 1275  vim .env.example 
+ 1276  ls
+ 1277  cd sms/
+ 1278  ls
+ 1279  cat run.sh 
+ 1280  cat config.yml 
+ 1281  cat Dockerfile 
+ 1282  s
+ 1283  ls
+ 1284  docker run -d -p 5672:5672 rabbitmq:3
+ 1285  docker ps
+ 1286  ..
+ 1287  ls
+ 1288  cd nameko_app/
+ 1289  code .
+ 1290  ls
+ 1291  python3.6 -m venv --without-pip venv
+ 1292  source venv/bin/activate
+ 1293  curl https://bootstrap.pypa.io/get-pip.py | python
+ 1294  pip install nameko
+ 1295  deactivate 
+ 1296  ls
+ 1297  rm -rf venv/
+ 1298  python3.6 -m venv --without-pip venv
+ 1299  source venv/bin/activate
+ 1300  curl https://bootstrap.pypa.io/get-pip.py | python
+ 1301  pip install nameko alembic
+ 1302  cd auth/
+ 1303  ls
+ 1304  alembic init alembic
+ 1305  ls
+ 1306  cat alembic.ini 
+ 1307  ..
+ 1308  code .
+ 1309  st
+ 1310  vim .gitignore 
+ 1311  ga .gitignore 
+ 1312  gcm "Update ignore file types"
+ 1313  st
+ 1314  ga .env.example 
+ 1315  gcm "Add postgres example url"
+ 1316  cd auth/
+ 1317  ls
+ 1318  ga alembic
+ 1319  st
+ 1320  ga alembic.ini 
+ 1321  gcm "Add alembic to auth service to manage db migrations"
+ 1322  st
+ 1323  ga requirements.txt run.sh 
+ 1324  gcm "Update required modules and add alembic upgrade command to script"
+ 1325  st
+ 1326  ga test/
+ 1327  gcm "Setup testing module"
+ 1328  ga .
+ 1329  gcm "Add auth setup && add the declarative base in the auth models"
+ 1330  git push origin master 
+ 1331  cd Documents/Moringa/django/prodev/backend/
+ 1332  ls
+ 1333  cat .env
+ 1334  man init
+ 1335  docker images
+ 1336  init 6
+ 1337  init 6
+ 1338  history 
+ 1339  ps aux
+ 1340  systemctl poweroff -i
+ 1341  locate mtm
+ 1342  cd Documents/Learning/Technical\ Interview/
+ 1343  ls
+ 1344  ..
+ 1345  ls
+ 1346  cd algorithms/
+ 1347  ls
+ 1348  cd microsoft_interview/
+ 1349  ls
+ 1350  cat task_1.py 
+ 1351  cat max_even_array.py 
+ 1352  cat minimum_deletions.py 
+ 1353  cat task_1.py 
+ 1354  cd /~/Documents/challenges/mtm
+ 1355  cd /Documents/challenges/mtm
+ 1356  cd ~/Documents/challenges/mtm
+ 1357  cd ~
+ 1358  ls
+ 1359  cd Documents/c
+ 1360  cd Documents/challenges/
+ 1361  s
+ 1362  ls
+ 1363  cd mtm/
+ 1364  ls
+ 1365  ..
+ 1366  ssh ZO1856@192.86.32.153
+ 1367  ssh Z01856@192.86.32.153
+ 1368  cd Downloads/mtm/mtm\ contest/
+ 1369  mcd contest_dir
+ 1370  code .
+ 1371  sssh Z01856@192.86.32.153
+ 1372  ssh Z01856@192.86.32.153
+ 1373  ls
+ 1374  code .
+ 1375  cd Downloads/mtm/mtm\ contest/contest_dir/
+ 1376  code .
+ 1377  ssh Z01856@192.86.32.153
+ 1378  ls
+ 1379  cat /etc/X11/default-display-manager 
+ 1380  apt-get install gnome-keyring libsecret
+ 1381  sudo apt-get install gnome-keyring libsecret
+ 1382  sudo dpkg --configure -a
+ 1383  N
+ 1384  sudo apt-get install gnome-keyring libsecret
+ 1385  sudo apt-get install gnome-keyring
+ 1386  sudo apt-get install libsecret
+ 1387  sudo apt-get install libsecret-1-0
+ 1388  npm install -g @zowe/cli@zowe-v1-lts
+ 1389  sudo npm install -g @zowe/cli@zowe-v1-lts
+ 1390  sudo npm uninstall -g @zowe/cli@zowe-v1-lts
+ 1391  sudo npm install -g @zowe/cli@zowe-v1-lts
+ 1392  sudo npm uninstall @zowe/cli@zowe-v1-lts
+ 1393  sudo npm install -g @zowe/cli@zowe-v1-lts
+ 1394  zowe plugins install @zowe/secure-credential-store-for-zowe-cli@zowe-v1-lts
+ 1395  npm uninstall -g @zowe/cli@zowe-v1-lts
+ 1396  npm uninstall -g zowe
+ 1397  cd `
+ 1398  cd ~
+ 1399  cd /usr/local/
+ 1400  ls
+ 1401  cd bin/
+ 1402  ls
+ 1403  nautilus ./
+ 1404  nautilus .
+ 1405  ls
+ 1406  ls -l
+ 1407  rm zowe bright 
+ 1408  sudo rm zowe bright 
+ 1409  ls
+ 1410  ls -l
+ 1411  sudo rm zowe bright 
+ 1412  zowe plugins install @zowe/secure-credential-store-for-zowe-cli@zowe-v1-lts
+ 1413  npm uninstall -g @zowe/cli@zowe-v1-lts
+ 1414  npm uinstall -g @zowe/cli@zowe-v1-lts
+ 1415  npm install -g @zowe/cli@zowe-v1-lts
+ 1416  sudo npm install -g @zowe/cli@zowe-v1-lts
+ 1417  sudo apt update
+ 1418  nvm
+ 1419  sudo apt-get update
+ 1420  nvm
+ 1421  nvm ls
+ 1422  nvm install 14.15.4
+ 1423  nvm current
+ 1424  npm -v
+ 1425  nvm install-npm-latest
+ 1426  nvm install-latest-npm
+ 1427  npm -v
+ 1428  node --version
+ 1429  cd ..
+ 1430  cd lib/node_modules/
+ 1431  ls
+ 1432  npm install -g @zowe/cli@zowe-v1-lts
+ 1433  sudo npm install -g @zowe/cli@zowe-v1-lts
+ 1434  nvm install-latest-npm
+ 1435  sudo npm install -g @zowe/cli@zowe-v1-lts
+ 1436  mkdir ~/.npm-global
+ 1437  npm config set prefix '~/.npm-global'
+ 1438  export PATH=~/.npm-global/bin:$PATH
+ 1439  source ~/.profile
+ 1440  nvm install-latest-npm
+ 1441  sudo npm install -g @zowe/cli@zowe-v1-lts
+ 1442  Bmkdir ~/.npm-global
+ 1443  mkdir ~/.npm-global
+ 1444  npm config set prefix '~/.npm-global'
+ 1445  echo "export PATH=~/.npm-global/bin/:$PATH" >> .zprofile
+ 1446  npm i -g @zowe/cli
+ 1447  zowe
+ 1448  zowe plugins install @zowe/secure-credential-store-for-zowe-cli@zowe-v1-lts
+ 1449  zowe
+ 1450  cd Downloads/mtm/mtm\ contest/contest_dir/]
+ 1451  cd Downloads/mtm/mtm\ contest/contest_dir/
+ 1452  code .
+ 1453  ssh Z01856@192.86.32.153
+ 1454  zowe
+ 1455  nvm use --delete-prefix v14.15.4 --silent
+ 1456  zowe
+ 1457  npm i -g @zowe/cli
+ 1458  zowe
+ 1459  npm install -g @zowe/cli@zowe-v1-lts
+ 1460  zowe plugins install @zowe/secure-credential-store-for-zowe-cli@zowe-v1-lts
+ 1461  zowe
+ 1462  cd Downloads/mtm/mtm\ contest/contest_dir/
+ 1463  code .
+ 1464  ssh Z01856@192.86.32.153
+ 1465  cd Downloads/mtm/mtm\ contest/contest_dir/
+ 1466  code .
+ 1467  zowe console
+ 1468  zowe
+ 1469  zowe jobs
+ 1470  zowe jobs --help-examples
+ 1471  zowe zos-jobs
+ 1472  zowe zos-jobs list 
+ 1473  zowe zos-jobs list jobs
+ 1474  zowe zos-jobs list jobs --rfj
+ 1475  zowe files
+ 1476  zowe
+ 1477  zowe files
+ 1478  zowe files create
+ 1479  zowe files create ps
+ 1480  zowe files create ps Z01856.ZOWEPS
+ 1481  zowe files create ps Z01856.ZOWEPS --responseTimeout 30
+ 1482  zowe files
+ 1483  zowe files ls
+ 1484  zowe files ls ds
+ 1485  zowe files
+ 1486  zowe files ls ds "Z01856.ZOWEPS" --reponseTimeout 30
+ 1487  zowe files ls ds "Z01856.ZOWEPS"
+ 1488  zowe files ls ds "Z01856.ZOWEPS" --reponseTimeout 30
+ 1489  zowe files ls ds "Z01856.ZOWEPS" --responseTimeout 30
+ 1490  zowe files
+ 1491  zowe files ls
+ 1492  zowe files ls ds
+ 1493  zowe files ls ds "Z01856.ZOWEPS" --responseTimeout 30
+ 1494  zowe files ls ds Z01856.ZOWEPS -a --responseTimeout 30
+ 1495  zowe files
+ 1496  zowe files del 
+ 1497  zowe files del ds Z01856.ZOWEPS --responseTimeout 30
+ 1498  zowe files del ds Z01856.ZOWEPS -f --responseTimeout 30
+ 1499  zowe files create ps Z01856.ZOWEPS --blksize 9600 --lrecl 120 --responseTimeout 30
+ 1500  zowe files ls ds Z01856.ZOWEPS -a --responseTimeout 30
+ 1501  zowe files create
+ 1502  zowe files create vsam
+ 1503  zowe files create vsam Z01856 -v VPWRKZ --responseTimeout 30
+ 1504  zowe files create vsam Z01856.VSAMDS -v VPWRKZ --responseTimeout 30
+ 1505  zowe files ls ds 
+ 1506  zowe files ls
+ 1507  zowe files ls ds Z01856.VSAMDS -a --responseTimeout 30
+ 1508  zowe
+ 1509  zowe jobs
+ 1510  zowe jobs sub 
+ 1511  zowe jobs sub lf "repro.txt"
+ 1512  zowe jobs sub lf "zcljob.txt"
+ 1513  cat zcljob.txt 
+ 1514  code .
+ 1515  java -version
+ 1516  javac -version
+ 1517  env
+ 1518  env | grep JAVA
+ 1519  env | grep JAVA_HOME
+ 1520  env | grep $JAVA_HOME
+ 1521  $JAVA_HOME
+ 1522  JAVA_HOME
+ 1523  which java
+ 1524  cd /usr/bin/
+ 1525  ls -la
+ 1526  ls -la | grep java
+ 1527  ...
+ 1528  cd ~
+ 1529  find / -name "java"
+ 1530  sudo find / -name "java"
+ 1531  bg
+ 1532  fg
+ 1533  ls
+ 1534  env
+ 1535  set
+ 1536  set | grep java
+ 1537  set | grep "java"
+ 1538  java -version
+ 1539  cd Downloads/mtm/mtm\ contest/contest_dir/
+ 1540  env
+ 1541  env | grep LC
+ 1542  env | grep JAVA
+ 1543  env | grep J
+ 1544  env | grep S
+ 1545  env | grep J
+ 1546  env | grep H
+ 1547  which jdk
+ 1548  whereis jdk
+ 1549  whereis java
+ 1550  cd ~
+ 1551  ls
+ 1552  al
+ 1553  la
+ 1554  la | grep jdk
+ 1555  cd Downloads/
+ 1556  tar -zxvf OpenJDK11U-jdk_x64_linux_openj9_11.0.9_11_openj9-0.23.0.tar.gz jdk-11.0.9+11/
+ 1557  ls
+ 1558  ls | grep jdk
+ 1559  ls
+ 1560  ls | grep jdk
+ 1561  mv jdk-11.0.9+11/ ..
+ 1562  ls
+ 1563  ..
+ 1564  mv jdk-11.0.9+11/ ..
+ 1565  ls | grep jdk
+ 1566  bash
+ 1567  JAVA_HOME=jdk-11.0.9+11/
+ 1568  export JAVA_HOME
+ 1569  env | grep PATH
+ 1570  PATH=$JAVA_HOME/bin/:$PATH 
+ 1571  export PATH
+ 1572  env
+ 1573  env | grep JA
+ 1574  env | grep PATH
+ 1575  code .
+ 1576  cd Downloads/mtm/mtm\ contest/contest_dir/
+ 1577  code .
+ 1578  bash
+ 1579  zowe tso issue command "exec 'Z01856.source(ccview)'"
+ 1580  zowe tso issue command "exec 'Z01856.source(ccview)'" -ssm
+ 1581  zowe tso issue command "exec 'Z01856.source(ccview)'" --ssm
+ 1582  cd Downloads/mtm/mtm\ contest/contest_dir/
+ 1583  code .
+ 1584  cd Downloads/mtm/mtm\ contest/contest_dir/
+ 1585  code .
+ 1586  ip route
+ 1587  ip route show
+ 1588  ip -6 route show
+ 1589  route --help
+ 1590  route
+ 1591  route -ipv6
+ 1592  iproute2
+ 1593  man iproute2
+ 1594  myVar=5 [[ $myVar -gt 10 ]] || echo "Hello World"
+ 1595  myVar=5 [[ $myVar -lt 10 ]] || echo "Hello World"
+ 1596  myVar=5 [[ $myVar -gt 10 ]] && echo "Hello World"
+ 1597  myVar=5 [[ $myVar -lt 10 ]] && echo "Hello World"
+ 1598  sed --help
+ 1599  man setfacl
+ 1600  python3
+ 1601  cd Documents/Learning/algorithms/
+ 1602  ls
+ 1603  ..
+ 1604  mcd algo_practice
+ 1605  vim queue_two_stacks.py
+ 1606  vim stack_two_queues.py
+ 1607  ls
+ 1608  python3
+ 1609  python3 mutugiii.py 
+ 1610  python3
+ 1611  cd Documents/
+ 1612  ls
+ 1613  cd msp/
+ 1614  ls
+ 1615  gcl git@github.com:Mutugiii/micropilot-entry-challenge.git
+ 1616  cd micropilot-entry-challenge/
+ 1617  ls
+ 1618  gb
+ 1619  ls
+ 1620  vim mutugiii.py
+ 1621  s
+ 1622  ls
+ 1623  st
+ 1624  rm __pycache__/
+ 1625  rm -rf__pycache__/
+ 1626  rm -rf __pycache__/
+ 1627  ls
+ 1628  st
+ 1629  ga .
+ 1630  gcm "Entry Challenge"
+ 1631  gp origin main
+ 1632  ls /
+ 1633  python3
+ 1634  python3 two_sum.py 
+ 1635  python3
+ 1636  vim reverse_word_by_word.py
+ 1637  cd Documents/Learning/algorithms/random_practice/
+ 1638  ls
+ 1639  vim two_sum.py
+ 1640  vim three_sum.py
+ 1641  vim two_sum.py
+ 1642  vim three_sum.py
+ 1643  ls
+ 1644  st
+ 1645  ga .
+ 1646  gcm "Additional algorithms"
+ 1647  gp origin main
+ 1648  python3
+ 1649  cat word_cloud.py 
+ 1650  python3
+ 1651  cd Documents/Learning/algorithms/
+ 1652  ls
+ 1653  cd random_practice/
+ 1654  vim non_duplicate_number_list.py
+ 1655  vim diff_added_char.py
+ 1656  vim missing_num_in_list.py 
+ 1657  st
+ 1658  ga .
+ 1659  gcm "Even more additions"
+ 1660  gp origin master
+ 1661  gp origin main
+ 1662  vim k_largest_in_array.py
+ 1663  python3
+ 1664  cd Documents/Learning/algorithms/random_practice/
+ 1665  vim min_index_sum_two_lists
+ 1666  vim min_index_sum_two_lists.py
+ 1667  cd Documents/Learning/algorithms/random_practice/
+ 1668  ls
+ 1669  st
+ 1670  ga .
+ 1671  gcm "Even some more algorithms"
+ 1672  gp origin master
+ 1673  gp origin main
+ 1674  cd Documents/Learning/algorithms/random_practice/
+ 1675  python3
+ 1676  cd Documents/Learning/algorithms/random_practice/
+ 1677  mcd sorting
+ 1678  vim quickSort.py
+ 1679  vim mergeSort.py
+ 1680  ..
+ 1681  mcd graphs
+ 1682  touch bfs.py dfs.py
+ 1683  python
+ 1684  python3
+ 1685  python2
+ 1686  python3
+ 1687  vim dfs.py 
+ 1688  cd Documents/Learning/algorithms/random_practice/
+ 1689  cd sorting/
+ 1690  ls
+ 1691  vim countingSort.py
+ 1692  ..
+ 1693  vim top_scores.py
+ 1694  ls
+ 1695  cd graphs/
+ 1696  ls
+ 1697  vim dfs.py 
+ 1698  cat dfs.py >> bfs.py 
+ 1699  vim bfs.py 
+ 1700  ..
+ 1701  st
+ 1702  ga .
+ 1703  gcm "Sorting Graphs..."
+ 1704  gp origin main
+ 1705  mcd linked_lists
+ 1706  ..
+ 1707  mv singly_linked_list.py linked_lists/
+ 1708  cd linked_lists/
+ 1709  cat singly_linked_list.py 
+ 1710  vim singly_linked_list.py 
+ 1711  cat singly_linked_list.py 
+ 1712  vim singly_linked_list.py 
+ 1713  cd Documents/Learning/algorithms/random_practice/
+ 1714  ls
+ 1715  cd linked_lists/
+ 1716  vim doubly_linked_list.py
+ 1717  ..
+ 1718  ls
+ 1719  vim permutation_palindrome.py
+ 1720  python3
+ 1721  cd Documents/Learning/algorithms/random_practice/
+ 1722  ls
+ 1723  vim max_sub_array.py
+ 1724  vim meeting_rooms2.py
+ 1725  st
+ 1726  ga .
+ 1727  gcm "Additions"
+ 1728  gp origin main
+ 1729  python3
+ 1730  ls random
+ 1731  ls random.py
+ 1732  vim random.py
+ 1733  rm random.py 
+ 1734  python3 two_sum.py 
+ 1735  cd Documents/Learning/algorithms/random_practice/
+ 1736  python3 two_sum.py 
+ 1737  vim two_sum.py 
+ 1738  python3 two_sum.py 
+ 1739  vim two_sum.py 
+ 1740  python3 two_sum.py 
+ 1741  cd Documents/Learning/algorithms/random_practice/
+ 1742  vim two_sum.py 
+ 1743  st
+ 1744  ga .
+ 1745  vim two_sum.py 
+ 1746  python3 two_sum.py 
+ 1747  ga .
+ 1748  gcm "two sum" && gp origin main
+ 1749  python3
+ 1750  date
+ 1751  python3
+ 1752  cd Documents/Learning/algorithms/random_practice/
+ 1753  ls
+ 1754  vim remove_duplicates_sortedarr_26.py
+ 1755  st
+ 1756  ga .
+ 1757  gcm "Remove duplicates"
+ 1758  python3
+ 1759  cd Documents
+ 1760  ls
+ 1761  cd msp/
+ 1762  ls
+ 1763  gcl git@github.com:Mutugiii/golclinics-dsa.git
+ 1764  cd golclinics-dsa/
+ 1765  ls
+ 1766  mcd classwork
+ 1767  mcd 01
+ 1768  ls
+ 1769  vim reverse_num.py
+ 1770  rm reverse_num.py 
+ 1771  ls
+ 1772  rm -rf __pycache__/
+ 1773  touch warm_up.py
+ 1774  vim warm_up.py 
+ 1775  ls
+ 1776  mkdir strings arrays
+ 1777  cd arrays/
+ 1778  vim left_rotation.py
+ 1779  ..
+ 1780  cd strings/
+ 1781  vim making_anagrams.py
+ 1782  vim alternating_characters.py
+ 1783  st
+ 1784  gb
+ 1785  git remorte
+ 1786  git remote
+ 1787  git remote -v
+ 1788  git remote add parent git@github.com:golclinics/golclinics-dsa.git
+ 1789  ...
+ 1790  git remote
+ 1791  git remote -v
+ 1792  git fetch parent 
+ 1793  st
+ 1794  git diff
+ 1795  git diff parent/main 
+ 1796  git merge origin/main parent/main 
+ 1797  st
+ 1798  ls
+ 1799  cd classwork/
+ 1800  ls
+ 1801  st
+ 1802  git push origin main
+ 1803  ls
+ 1804  st
+ 1805  python3
+ 1806  python3 angaza.py 
+ 1807  cd Documents/Learning/algorithms/random_practice/
+ 1808  ls
+ 1809  vim angaza.py
+ 1810  mkdir angaza && mv angaza.py angaza
+ 1811  cd angaza/
+ 1812  ls
+ 1813  mv file_formatter.py
+ 1814  vim file_formatter.py
+ 1815  rm file_formatter.py 
+ 1816  ls
+ 1817  vim angaza.py 
+ 1818  ls
+ 1819  cd Documents/msp/
+ 1820  ls
+ 1821  cd golclinics-dsa/
+ 1822  ls
+ 1823  cd classwork/
+ 1824  ls
+ 1825  cd 01/
+ 1826  ls
+ 1827  python3
+ 1828  cd Documents/
+ 1829  cd msp/golclinics-dsa/
+ 1830  cd classwork/01/
+ 1831  ls
+ 1832  ls arrays/
+ 1833  gb
+ 1834  git branch -rm bigo 
+ 1835  git branch -remove bigo 
+ 1836  git branch -D bigo 
+ 1837  ls
+ 1838  rm __pycache__/
+ 1839  rm -rf __pycache__/
+ 1840  ..
+ 1841  mcd 02
+ 1842  vim warm_up.py
+ 1843  st
+ 1844  ..
+ 1845  ga .
+ 1846  gcm "Warm up for big O class"
+ 1847  gp origin main
+ 1848  cd arrays/
+ 1849  vim 2D_Array_DS.py
+ 1850  ..
+ 1851  st
+ 1852  ..
+ 1853  st
+ 1854  ..
+ 1855  st
+ 1856  git diff classwork/
+ 1857  ga .
+ 1858  gcm "Arrays & Strings"
+ 1859  gp origin main
+ 1860  git fetch parent main
+ 1861  git merge origin/main 
+ 1862  history | grep parent
+ 1863  git fetch parent
+ 1864  git merge origin/main parent/main 
+ 1865  git push origin main 
+ 1866  cd classwork/
+ 1867  mcd 02/
+ 1868  ls
+ 1869  vim warm_up.py
+ 1870  st
+ 1871  ..
+ 1872  st
+ 1873  ga .
+ 1874  gcm "Big O warm up"
+ 1875  gp origin main
+ 1876  git diff
+ 1877  git log
+ 1878  git revert 6c18d99395a9b2e48b6643879c70772d83067d7c
+ 1879  st
+ 1880  git push origin main 
+ 1881  ls
+ 1882  cd 01/
+ 1883  ls
+ 1884  rm -rf __pycache__/
+ 1885  ..
+ 1886  cd 02/
+ 1887  git push origin main 
+ 1888  git push -f origin main 
+ 1889  git log
+ 1890  git checkout 4fca0e04a4bc91a660b9d09822c381e38792f223
+ 1891  st
+ 1892  ls
+ 1893  cd 01/
+ 1894  ls
+ 1895  ..
+ 1896  ls
+ 1897  git switch - 
+ 1898  git reset HEAD 4fca0e04a4bc91a660b9d09822c381e38792f223 --hard
+ 1899  git reset HEAD --hard 4fca0e04a4bc91a660b9d09822c381e38792f223
+ 1900  git log --oneline 
+ 1901  git reset HEAD~3
+ 1902  git log
+ 1903  ls
+ 1904  cd 01/
+ 1905  ls
+ 1906  ..
+ 1907  git push origin main 
+ 1908  git push -f origin main 
+ 1909  git fetch parent
+ 1910  git merge origin/main parent/main 
+ 1911  git -f merge origin/main parent/main 
+ 1912  git merge -f origin/main parent/main 
+ 1913  git merge origin/main parent/main 
+ 1914  st
+ 1915  ..
+ 1916  st
+ 1917  git merge origin/main parent/main 
+ 1918  rm assignments/01-arrays-and-strings.md 
+ 1919  rm assignments/02-big-o-notation.md 
+ 1920  git merge origin/main parent/main 
+ 1921  git log
+ 1922  git reset HEAD
+ 1923  git reset HEAD --hard 
+ 1924  git reset HEAD~1 --hard 
+ 1925  git log
+ 1926  git merge origin/main parent/main --no-commit 
+ 1927  git log
+ 1928  st
+ 1929  ga .
+ 1930  gcm "Update with Parent repo"
+ 1931  gp origin main
+ 1932  ls
+ 1933  cd classwork/
+ 1934  ls
+ 1935  mcd 02
+ 1936  vim warm_up.py
+ 1937  ..
+ 1938  rm 02/
+ 1939  rm -rf 02/
+ 1940  ls
+ 1941  st
+ 1942  ..
+ 1943  git checkout -b bigo
+ 1944  cd classwork/
+ 1945  mcd 02
+ 1946  vim warm_up.py
+ 1947  ga .
+ 1948  gcm "Big O warm up"
+ 1949  gp origin bigo
+ 1950  git checkout main 
+ 1951  git branch -rm bigo
+ 1952  git branch -rm bigO
+ 1953  gb
+ 1954  cd Documents/Learning/algorithms/random_practice/angaza/
+ 1955  ls
+ 1956  cat angaza.py 
+ 1957  vim angaza.py 
+ 1958  python3 angaza.py 
+ 1959  python3 angaza.py
+ 1960  python3
+ 1961  cd Documents/msp/golclinics-dsa/
+ 1962  ls
+ 1963  cd classwork/
+ 1964  ls
+ 1965  cat 02/warm_up.py
+ 1966  mcd 03
+ 1967  vim warm_up.py
+ 1968  st
+ 1969  ls
+ 1970  ..
+ 1971  st
+ 1972  python3 angaza.py 
+ 1973  cd Documents/Learning/algorithms/random_practice/angaza/
+ 1974  ls
+ 1975  vim angaza.py 
+ 1976  python3 angaza.py 
+ 1977  vim angaza.py 
+ 1978  cd Documents/msp/golclinics-dsa/
+ 1979  ls
+ 1980  cd 01-arrays-and-strings/
+ 1981  ls
+ 1982  ..
+ 1983  cd classwork/01
+ 1984  ls
+ 1985  cd arrays/
+ 1986  ls
+ 1987  mcd codility
+ 1988  vim cyclicRotation.py
+ 1989  vim oddOccurencesInArray.py
+ 1990  cd mutugi
+ 1991  cd Folio
+ 1992  cd
+ 1993  cd ..
+ 1994  ls
+ 1995  ls mutugi/
+ 1996  ls -R
+ 1997  man ls
+ 1998  cd
+ 1999  ls -R
+ 2000  ..
+ 2001  cd git-basic-exercises/
+ 2002  gb -a
+ 2003  st
+ 2004  gb
+ 2005  git log
+ 2006  gb
+ 2007  ls
+ 2008  touch ignore-me.db
+ 2009  st
+ 2010  vim .gitignore
+ 2011  cat .git
+ 2012  cat .gitignore 
+ 2013  st
+ 2014  mkdir large-directory-that-should-be-local-only
+ 2015  cd large-directory-that-should-be-local-only/
+ 2016  vim README.md
+ 2017  ..
+ 2018  st
+ 2019  vim .gitignore 
+ 2020  st
+ 2021  git add .gitignore 
+ 2022  st
+ 2023  git reset .gitignore
+ 2024  st
+ 2025  cat README.md 
+ 2026  cat milkshakes.md 
+ 2027  vim README.md 
+ 2028  git merge --abort 
+ 2029  gb
+ 2030  st
+ 2031  git checkout -b history
+ 2032  git checkout main 
+ 2033  st
+ 2034  ga .gitignore 
+ 2035  gcm "Added .gitignore"
+ 2036  gp origin main
+ 2037  ls
+ 2038  git checkout history 
+ 2039  gb
+ 2040  ls
+ 2041  rm -rf ignore-me.db  large-directory-that-should-be-local-only/ README.md 
+ 2042  ls
+ 2043  echo "booya" > README.md
+ 2044  git merge main
+ 2045  ls
+ 2046  la
+ 2047  rm .gitignore 
+ 2048  ls
+ 2049  st
+ 2050  git checkout main 
+ 2051  ls
+ 2052  git merge milkshake-flavours 
+ 2053  st
+ 2054  ls
+ 2055  la
+ 2056  st
+ 2057  gb
+ 2058  ..
+ 2059  rm -rf a-repo-to-clone/ this-will-be-another-repo/ git-basic-exercises/
+ 2060  ls
+ 2061  mcd git-basic-exercises
+ 2062  ls
+ 2063  gi
+ 2064  git branch -m master main
+ 2065  gb
+ 2066  ls
+ 2067  ls -la
+ 2068  ls -a
+ 2069  touch README.md
+ 2070  st
+ 2071  gb
+ 2072  ga README.md 
+ 2073  gcm "initial commit"
+ 2074  gl
+ 2075  git log
+ 2076  vim README.md 
+ 2077  ga README.md 
+ 2078  gcm "second commit"
+ 2079  vim README.md 
+ 2080  gcm "third commit"
+ 2081  ga README.md 
+ 2082  gcm "third commit"
+ 2083  git log
+ 2084  git checkout -b milkshake-flavours
+ 2085  gb
+ 2086  vim milkshakes.md
+ 2087  st
+ 2088  ga milkshakes.md 
+ 2089  gcm "added initial flavours"
+ 2090  git log
+ 2091  git checkout master 
+ 2092  gb
+ 2093  git branch -m master main
+ 2094  gb
+ 2095  git log
+ 2096  git checkout -b history
+ 2097  gb
+ 2098  history > history.txt
